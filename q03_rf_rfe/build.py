@@ -20,9 +20,3 @@ def rf_rfe(df):
     features = np.array(X.columns.values)
     a = features[support].tolist()
     return a
-
-
-
-
-
-rf_rfe(data)
